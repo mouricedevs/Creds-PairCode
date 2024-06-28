@@ -2,10 +2,10 @@
   "name": "Creds-PairCode",
   "version": "1.0.0",
   "description": "Connect Whatsapp With Baileys Code Pairing",
-  "main": "index.js",
+  "main": "gifted.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node gifted.js"
   },
   "keywords": [
     "baileys",
