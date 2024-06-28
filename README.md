@@ -1,7 +1,7 @@
 # Gifted-Md V5 Creds-PairCode
 - Pair code generator for whatsapp bots requiring creds.json
 - I recommend termux as it's easily accessible any time.
-### *RUN ON [REPLIT](https://replit.com/@mouriceonyango0/GiftedV5-Creds)*
+### *RUN ON [REPLIT](https://replit.com/@mouriceonyango0/Creds-PairCode)*
 - Fork the Repl then hit the run button.
 
 ### *RUN ON [CODESPACES](https://github.com/codespaces/new/mouricedevs/Creds-PairCode?skip_quickstart=true&machine=standardLinux32gb&repo=821208415&ref=main&geo=EuropeWest)*
