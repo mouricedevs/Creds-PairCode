@@ -5,7 +5,7 @@
 
 
 ### Run on Termux:
-- Click [`HERE`](https://github.com/mouricedevs/Creds-PairCode/blob/main/termux.md) to Set Up Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)  **ONLY** if you haven't.
+- [`CLICH HERE`](https://github.com/mouricedevs/Creds-PairCode/blob/main/sessions/termux.md) to Set Up Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)  **ONLY** if you haven't.
 - Then Paste Below Cmds on Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk) one by one.
 ```
 git clone https://github.com/mouricedevs/Creds-PairCode && cd Creds-PairCode && npm start
