@@ -2,8 +2,17 @@
 - Pair code generator for whatsapp bots requiring creds.json
 - I recommend termux as it's easily accessible any time.
 ### *RUN ON [REPLIT](https://replit.com/@mouriceonyango0/GiftedV5-Creds)*
+- Fork the Repl then hit the run button.
 
 ### *RUN ON [CODESPACES](https://github.com/codespaces/new/mouricedevs/Creds-PairCode?skip_quickstart=true&machine=standardLinux32gb&repo=821208415&ref=main&geo=EuropeWest)*
+- After the terminal has loaded paste these 2 commands one after the other:
+```
+npm install
+```
+```
+npm start
+```
+- Instead of using npm install you can also use the cmds ***[yarn]*** then ***[yarn start]***
 
 ### *RUN ON TERMUX:*
 - [`CLICH HERE`](https://github.com/mouricedevs/Creds-PairCode/blob/main/sessions/termux.md) to Set Up Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)  **ONLY** if you haven't.
