@@ -195,7 +195,7 @@ function _0x4fd2() {
         '9sDpvNy',
         'bgBlack',
         'authState',
-        './giftedsessions/creds.json',
+        './sessions/creds.json',
         'requestPairingCode',
         'libphonenumber-js',
         'bgGreen',
