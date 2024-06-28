@@ -1,8 +1,12 @@
 # GiftedV5-Creds-PairCode
 - Pair code generator for whatsapp bots
 
+### Run on [REPLIT](https://replit.com/@mouriceonyango0/GiftedV5-Creds)
+
+
 ### Run on Termux:
-Paste Below Cmds on [Termux App](https://f-droid.org/repo/com.termux_1020.apk) one by one.
+- Click [`HERE`](https://github.com/mouricedevs/Creds-PairCode/blob/main/termux.md) to Set Up Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)  **ONLY** if you haven't.
+- Then Paste Below Cmds on Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk) one by one.
 ```
 git clone https://github.com/mouricedevs/Creds-PairCode && cd Creds-PairCode && npm start
 ```
@@ -12,5 +16,5 @@ git clone https://github.com/mouricedevs/Creds-PairCode && cd Creds-PairCode && 
 ```
 cd Creds-PairCode && npm start
 ```
-
-### Run on [REPLIT](https://replit.com/@mouriceonyango0/GiftedV5-Creds)
+### Run on [Codespaces]()
+      ©𝟐𝟎𝟐𝟒 𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇
