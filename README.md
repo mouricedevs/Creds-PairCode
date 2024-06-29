@@ -18,10 +18,9 @@ npm start
 - [`CLICH HERE`](https://github.com/mouricedevs/Creds-PairCode/blob/main/sessions/termux.md) to Set Up Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)  **ONLY** if you haven't.
 - Then Paste Below Command on Your [Termux App](https://f-droid.org/repo/com.termux_1020.apk)
 ```
-git clone https://github.com/mouricedevs/Creds-PairCode && cd Creds-PairCode && npm start
+git clone https://github.com/mouricedevs/Creds-PairCode && cd Creds-PairCode && npm install && npm start
 ```
 
-- No npm install or yarn install since all latest node_modules are available in root dir
 - After completing and exiting termux anytime you need to link another device just:
 ```
 cd Creds-PairCode && npm start
