@@ -18,9 +18,8 @@ export type BaileysInMemoryStoreConfig = {
     chatKey?: Comparable<Chat, string>;
     labelAssociationKey?: Comparable<LabelAssociation, string>;
     logger?: Logger;
-    socket?: WASocket;
 };
-declare const _default: (config: BaileysInMemoryStoreConfig) => {
+declare const _default: ({ logger: _logger, chatKey, labelAssociationKey }: BaileysInMemoryStoreConfig) => {
     chats: KeyedDB<Chat, string>;
     contacts: {
         [_: string]: Contact;
