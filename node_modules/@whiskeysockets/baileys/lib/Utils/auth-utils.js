@@ -199,8 +199,6 @@ const initAuthCreds = () => {
         backupToken: (0, crypto_1.randomBytes)(20),
         registration: {},
         pairingCode: undefined,
-        lastPropHash: undefined,
-        routingInfo: undefined,
     };
 };
 exports.initAuthCreds = initAuthCreds;
