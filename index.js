@@ -9,7 +9,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "254711111111"
+let phoneNumber = "2547"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -54,18 +54,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +254711111111")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +254796299159")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +254711111111 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 👁\nFor example: +254796299159 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +254711111111")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +25479629915")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +254711111111 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 👁\nFor example: +254796299159 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -74,7 +74,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
       setTimeout(async () => {
          let code = await XeonBotInc.requestPairingCode(phoneNumber)
          code = code?.match(/.{1,4}/g)?.join("-") || code
-         console.log(chalk.black(chalk.bgGreen(`Gifted-Md Pairing Code : `)), chalk.black(chalk.white(code)))
+         console.log(chalk.black(chalk.bgGreen(`Keith-Md Pairing Code : `)), chalk.black(chalk.white(code)))
       }, 3000)
    }
 //------------------------------------------------------
@@ -91,13 +91,13 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 > *USE IT TO DEPLOY YOUR BOT.*
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••
-❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: youtube.com/@giftedtechnexus
-❒ 𝐎𝐰𝐧𝐞𝐫: t.me/giftedmd
-❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l
-❒ 𝐆𝐢𝐭𝐡𝐮𝐛: https://github.com/mouricedevs
-❒ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: Gifted Tech
+❒ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: https://youtube.com/@keithkeizzah
+❒ 𝐎𝐰𝐧𝐞𝐫: https://t.me/keithmd
+❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47
+❒ 𝐆𝐢𝐭𝐡𝐮𝐛: https://github.com/keithkeizzah
+❒ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: keithkeizzah
 ╚═══════════════╝
- *𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝟱💜💜💜*
+ *𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐥𝐨𝐯𝐢𝐧𝐠 𝐊𝐞𝐢𝐭𝐡'𝐬 𝐩𝐫𝐨𝐣𝐞𝐜𝐭*
 ___________________________
 - Don't Forget To Fork and Give a Star⭐ To My Repo.
 - Check Out the YouTube Channel Above for Tutorials.\n\n ` }, {quoted: xeonses});
